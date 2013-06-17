@@ -18,6 +18,9 @@ public class ProfileField extends BaseObject {
     private String label;
     private String name;
     private ProfileFieldType type;
+    boolean showOnProfilePage;
+    boolean isActive;
+    boolean isDeleted;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -57,13 +60,40 @@ public class ProfileField extends BaseObject {
         this.name = name;
     }
 
-    @OneToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     public ProfileFieldType getType() {
         return type;
     }
 
     public void setType(ProfileFieldType type) {
         this.type = type;
+    }
+
+    @Column(name="show_on_profile_page")
+    public boolean isShowOnProfilePage() {
+        return showOnProfilePage;
+    }
+
+    public void setShowOnProfilePage(boolean showOnProfilePage) {
+        this.showOnProfilePage = showOnProfilePage;
+    }
+
+    @Column(name="active")
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    @Column(name="deleted")
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
     }
 
     @Override

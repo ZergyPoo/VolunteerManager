@@ -17,6 +17,8 @@ import javax.persistence.*;
 public class Organization extends BaseObject {
     private Long id;
     private String name;
+    private Address address;
+    private boolean isDeleted;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -37,6 +39,25 @@ public class Organization extends BaseObject {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Embedded
+    @IndexedEmbedded
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    @Column(name="deleted")
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
     }
 
     @Override
