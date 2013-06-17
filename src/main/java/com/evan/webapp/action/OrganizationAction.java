@@ -28,6 +28,10 @@ public class OrganizationAction extends BaseAction {
         this.id = id;
     }
 
+    public List<Organization> getOrganizations() {
+        return organizations;
+    }
+
     @Autowired
     public void setOrganizationManager(GenericManager<Organization, Long> organizationManager) {
         this.organizationManager = organizationManager;
@@ -42,6 +46,11 @@ public class OrganizationAction extends BaseAction {
     }
 
     public String list() {
+        organizations = organizationManager.getAll();
         return ACTION_LIST;
+    }
+
+    public String edit() {
+        return SUCCESS;
     }
 }

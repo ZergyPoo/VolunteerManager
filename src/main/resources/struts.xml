@@ -135,5 +135,9 @@
         <action name="organizationManagement" class="organizationAction" method="list">
             <result name="list">/WEB-INF/pages/admin/organizationList.jsp</result>
         </action>
+
+        <action name="editOrganization" class="organizationAction" method="edit">
+            <result name="success">/WEB-INF/pages/admin/organizationEdit.jsp</result>
+        </action>
     </package>
 </struts>
