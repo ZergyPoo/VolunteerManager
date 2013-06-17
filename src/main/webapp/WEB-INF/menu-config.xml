@@ -11,6 +11,7 @@
             <Item name="ActiveUsers" title="mainMenu.activeUsers" page="/admin/activeUsers"/>
             <Item name="ReloadContext" title="menu.admin.reload" page="/admin/reload"/>
             <Item name="FileUpload" title="menu.selectFile" page="/uploadFile"/>
+            <Item name="OrganizationManagement" title="organizationManagement.title" page="/admin/organizationManagement"/>
         </Menu>
         <Menu name="Logout" title="user.logout" page="/logout" roles="ROLE_ADMIN,ROLE_USER"/>
     </Menus>
