@@ -1,6 +1,6 @@
-package com.ievan.service;
+package com.evan.service;
 
-import com.ievan.model.User;
+import com.evan.model.User;
 
 import javax.jws.WebService;
 import javax.ws.rs.DELETE;

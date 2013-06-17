@@ -1,11 +1,11 @@
-package com.ievan.service.impl;
+package com.evan.service.impl;
 
-import com.ievan.Constants;
-import com.ievan.dao.UserDao;
-import com.ievan.model.Role;
-import com.ievan.model.User;
-import com.ievan.service.UserManager;
-import com.ievan.service.UserSecurityAdvice;
+import com.evan.Constants;
+import com.evan.dao.UserDao;
+import com.evan.model.Role;
+import com.evan.model.User;
+import com.evan.service.UserManager;
+import com.evan.service.UserSecurityAdvice;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;

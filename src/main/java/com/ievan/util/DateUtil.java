@@ -1,8 +1,8 @@
-package com.ievan.util;
+package com.evan.util;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.ievan.Constants;
+import com.evan.Constants;
 import org.springframework.context.i18n.LocaleContextHolder;
 
 import java.text.ParseException;

@@ -13,16 +13,16 @@
     </bean>
 
     <!-- Advice Class -->
-    <bean id="userSecurityAdvice" class="com.ievan.service.UserSecurityAdvice"/>
+    <bean id="userSecurityAdvice" class="com.evan.service.UserSecurityAdvice"/>
 
-    <bean id="userManager" class="com.ievan.service.impl.UserManagerImpl">
+    <bean id="userManager" class="com.evan.service.impl.UserManagerImpl">
         <property name="passwordEncoder">
             <bean class="org.springframework.security.authentication.encoding.ShaPasswordEncoder"/>
         </property>
     </bean>
 
     <bean id="target" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="proxyInterfaces" value="com.ievan.service.UserManager"/>
+        <property name="proxyInterfaces" value="com.evan.service.UserManager"/>
         <property name="interceptorNames">
             <list>
                 <idref local="userSecurityInterceptor"/>

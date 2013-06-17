@@ -6,7 +6,7 @@
 
 <hibernate-configuration>
     <session-factory>
-        <mapping class="com.ievan.model.User"/>
-        <mapping class="com.ievan.model.Role"/>
+        <mapping class="com.evan.model.User"/>
+        <mapping class="com.evan.model.Role"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,9 +1,9 @@
-package com.ievan.service;
+package com.evan.service;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.ievan.Constants;
-import com.ievan.model.User;
+import com.evan.Constants;
+import com.evan.model.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

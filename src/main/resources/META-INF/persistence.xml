@@ -3,8 +3,8 @@
 
     <persistence-unit name="ApplicationEntityManager" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.ievan.model.User</class>
-        <class>com.ievan.model.Role</class>
+        <class>com.evan.model.User</class>
+        <class>com.evan.model.Role</class>
     </persistence-unit>
 
     <!-- WARNING: This file's file original source is at web/common/src/main/resources/META-INF. The

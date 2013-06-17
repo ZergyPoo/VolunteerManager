@@ -39,7 +39,7 @@
         <level value="WARN"/>
     </logger>
    
-    <logger name="com.ievan">
+    <logger name="com.evan">
         <level value="DEBUG"/>
     </logger>
 

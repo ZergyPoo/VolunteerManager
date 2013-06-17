@@ -1,9 +1,9 @@
-package com.ievan.service.impl;
+package com.evan.service.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.ievan.dao.GenericDao;
-import com.ievan.service.GenericManager;
+import com.evan.dao.GenericDao;
+import com.evan.service.GenericManager;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.Serializable;
@@ -17,10 +17,10 @@ import java.util.List;
  * <p/>
  * <p>To register this class in your Spring context file, use the following XML.
  * <pre>
- *     &lt;bean id="userManager" class="com.ievan.service.impl.GenericManagerImpl"&gt;
+ *     &lt;bean id="userManager" class="com.evan.service.impl.GenericManagerImpl"&gt;
  *         &lt;constructor-arg&gt;
- *             &lt;bean class="com.ievan.dao.hibernate.GenericDaoHibernate"&gt;
- *                 &lt;constructor-arg value="com.ievan.model.User"/&gt;
+ *             &lt;bean class="com.evan.dao.hibernate.GenericDaoHibernate"&gt;
+ *                 &lt;constructor-arg value="com.evan.model.User"/&gt;
  *                 &lt;property name="sessionFactory" ref="sessionFactory"/&gt;
  *             &lt;/bean&gt;
  *         &lt;/constructor-arg&gt;
@@ -29,10 +29,10 @@ import java.util.List;
  * <p/>
  * <p>If you're using iBATIS instead of Hibernate, use:
  * <pre>
- *     &lt;bean id="userManager" class="com.ievan.service.impl.GenericManagerImpl"&gt;
+ *     &lt;bean id="userManager" class="com.evan.service.impl.GenericManagerImpl"&gt;
  *         &lt;constructor-arg&gt;
- *             &lt;bean class="com.ievan.dao.ibatis.GenericDaoiBatis"&gt;
- *                 &lt;constructor-arg value="com.ievan.model.User"/&gt;
+ *             &lt;bean class="com.evan.dao.ibatis.GenericDaoiBatis"&gt;
+ *                 &lt;constructor-arg value="com.evan.model.User"/&gt;
  *                 &lt;property name="dataSource" ref="dataSource"/&gt;
  *                 &lt;property name="sqlMapClient" ref="sqlMapClient"/&gt;
  *             &lt;/bean&gt;

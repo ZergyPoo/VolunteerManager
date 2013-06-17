@@ -1,7 +1,7 @@
-package com.ievan.webapp.filter;
+package com.evan.webapp.filter;
 
 import junit.framework.TestCase;
-import com.ievan.Constants;
+import com.evan.Constants;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.mock.web.MockFilterConfig;
 import org.springframework.mock.web.MockHttpServletRequest;

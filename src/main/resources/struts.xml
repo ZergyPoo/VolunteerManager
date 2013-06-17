@@ -100,7 +100,7 @@
             <result name="success" type="redirectAction">admin/users</result>
         </action>
 
-        <action name="uploadFile" class="com.ievan.webapp.action.FileUploadAction">
+        <action name="uploadFile" class="com.evan.webapp.action.FileUploadAction">
             <interceptor-ref name="fileUploadStack"/>
             <result name="input">/WEB-INF/pages/uploadForm.jsp</result>
             <result name="success">/WEB-INF/pages/uploadDisplay.jsp</result>
@@ -121,7 +121,7 @@
             <result name="success">/WEB-INF/pages/admin/activeUsers.jsp</result>
         </action>
 
-        <action name="reload" class="com.ievan.webapp.action.ReloadAction">
+        <action name="reload" class="com.evan.webapp.action.ReloadAction">
             <interceptor-ref name="adminCheck"/>
             <!-- this should never be used, it's here to prevent warnings -->
             <result name="success">/WEB-INF/pages/mainMenu.jsp</result>

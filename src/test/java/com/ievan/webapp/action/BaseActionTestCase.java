@@ -1,4 +1,4 @@
-package com.ievan.webapp.action;
+package com.evan.webapp.action;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.config.Configuration;
@@ -10,7 +10,7 @@ import com.opensymphony.xwork2.util.ValueStack;
 import com.opensymphony.xwork2.util.ValueStackFactory;
 import org.apache.commons.logging.Log;
 import org.apache.struts2.ServletActionContext;
-import com.ievan.Constants;
+import com.evan.Constants;
 import org.junit.After;
 import org.junit.Before;
 import org.springframework.mail.javamail.JavaMailSenderImpl;

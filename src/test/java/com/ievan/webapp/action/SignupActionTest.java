@@ -1,10 +1,10 @@
-package com.ievan.webapp.action;
+package com.evan.webapp.action;
 
 import com.opensymphony.xwork2.Action;
 import org.apache.struts2.ServletActionContext;
-import com.ievan.Constants;
-import com.ievan.model.Address;
-import com.ievan.model.User;
+import com.evan.Constants;
+import com.evan.model.Address;
+import com.evan.model.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mock.web.MockHttpServletRequest;

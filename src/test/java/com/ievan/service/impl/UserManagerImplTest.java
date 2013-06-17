@@ -1,11 +1,11 @@
-package com.ievan.service.impl;
+package com.evan.service.impl;
 
-import com.ievan.Constants;
-import com.ievan.dao.RoleDao;
-import com.ievan.dao.UserDao;
-import com.ievan.model.Role;
-import com.ievan.model.User;
-import com.ievan.service.UserExistsException;
+import com.evan.Constants;
+import com.evan.dao.RoleDao;
+import com.evan.dao.UserDao;
+import com.evan.model.Role;
+import com.evan.model.User;
+import com.evan.service.UserExistsException;
 import org.jmock.Expectations;
 import org.junit.Before;
 import org.junit.Test;

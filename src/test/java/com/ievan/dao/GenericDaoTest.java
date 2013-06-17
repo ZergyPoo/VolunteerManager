@@ -1,9 +1,9 @@
-package com.ievan.dao;
+package com.evan.dao;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.ievan.dao.hibernate.GenericDaoHibernate;
-import com.ievan.model.User;
+import com.evan.dao.hibernate.GenericDaoHibernate;
+import com.evan.model.User;
 import org.hibernate.SessionFactory;
 import org.junit.Before;
 import org.junit.Test;

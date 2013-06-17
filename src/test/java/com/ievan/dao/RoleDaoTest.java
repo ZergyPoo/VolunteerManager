@@ -1,7 +1,7 @@
-package com.ievan.dao;
+package com.evan.dao;
 
-import com.ievan.Constants;
-import com.ievan.model.Role;
+import com.evan.Constants;
+import com.evan.model.Role;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

@@ -1,6 +1,6 @@
-package com.ievan.dao.hibernate;
+package com.evan.dao.hibernate;
 
-import com.ievan.dao.BaseDaoTestCase;
+import com.evan.dao.BaseDaoTestCase;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

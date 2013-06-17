@@ -1,8 +1,8 @@
-package com.ievan.webapp.action;
+package com.evan.webapp.action;
 
 import com.opensymphony.xwork2.Action;
-import com.ievan.model.User;
-import com.ievan.service.UserManager;
+import com.evan.model.User;
+import com.evan.service.UserManager;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.subethamail.wiser.Wiser;

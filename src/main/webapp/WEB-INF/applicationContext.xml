@@ -9,7 +9,7 @@
     <context:annotation-config/>
 
     <!-- Activates scanning of @Repository and @Service -->
-    <context:component-scan base-package="com.ievan"/>
+    <context:component-scan base-package="com.evan"/>
 
     <!-- Add new DAOs here -->
 

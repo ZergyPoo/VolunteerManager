@@ -4,10 +4,10 @@
 <dwr>
     <allow>
         <create creator="spring" javascript="UserManager">
-            <param name="class" value="com.ievan.service.UserManager"/>
+            <param name="class" value="com.evan.service.UserManager"/>
             <param name="beanName" value="userManager"/>
             <include method="getUsers"/>
         </create>
-        <convert converter="bean" match="com.ievan.model.User"/>
+        <convert converter="bean" match="com.evan.model.User"/>
     </allow>
 </dwr>

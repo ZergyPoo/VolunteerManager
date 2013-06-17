@@ -1,4 +1,4 @@
-package com.ievan.util;
+package com.evan.util;
 
 import junit.framework.TestCase;
 import org.springframework.context.i18n.LocaleContextHolder;

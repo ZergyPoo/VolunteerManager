@@ -35,6 +35,6 @@
     <context:annotation-config/>
 
     <!-- Activates scanning of @Repository -->
-    <context:component-scan base-package="com.ievan.dao"/>
+    <context:component-scan base-package="com.evan.dao"/>
 
 </beans>

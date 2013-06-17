@@ -1,10 +1,10 @@
-package com.ievan.service.impl;
+package com.evan.service.impl;
 
-import com.ievan.dao.UserDao;
-import com.ievan.model.User;
-import com.ievan.service.UserExistsException;
-import com.ievan.service.UserManager;
-import com.ievan.service.UserService;
+import com.evan.dao.UserDao;
+import com.evan.model.User;
+import com.evan.service.UserExistsException;
+import com.evan.service.UserManager;
+import com.evan.service.UserService;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -24,7 +24,7 @@ import java.util.List;
  * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
  */
 @Service("userManager")
-@WebService(serviceName = "UserService", endpointInterface = "com.ievan.service.UserService")
+@WebService(serviceName = "UserService", endpointInterface = "com.evan.service.UserService")
 public class UserManagerImpl extends GenericManagerImpl<User, Long> implements UserManager, UserService {
     private PasswordEncoder passwordEncoder;
     private UserDao userDao;
