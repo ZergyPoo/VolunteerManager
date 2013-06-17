@@ -61,6 +61,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
     private Address address = new Address();
     private Integer version;
     private Set<Role> roles = new HashSet<Role>();
+    private Long organizationId;
     private boolean enabled;
     private boolean accountExpired;
     private boolean accountLocked;
@@ -164,6 +165,14 @@ public class User extends BaseObject implements Serializable, UserDetails {
     )
     public Set<Role> getRoles() {
         return roles;
+    }
+
+    public Long getOrganizationId() {
+        return organizationId;
+    }
+
+    public void setOrganizationId(Long organizationId) {
+        this.organizationId = organizationId;
     }
 
     /**
