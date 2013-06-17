@@ -23,7 +23,6 @@ public class SignupAction extends BaseAction {
     private static final long serialVersionUID = 6558317334878272308L;
     private User user;
     private String cancel;
-    private List<ProfileField> profileFields;
 
     public void setCancel(String cancel) {
         this.cancel = cancel;

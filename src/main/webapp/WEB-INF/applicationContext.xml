@@ -14,4 +14,11 @@
     <!-- Add new DAOs here -->
 
     <!-- Add new Managers here -->
+    <bean id="organizationManager" class="com.evan.service.impl.GenericManagerImpl">
+        <constructor-arg>
+            <bean class="com.evan.dao.hibernate.GenericDaoHibernate" autowire="byType">
+                <constructor-arg value="com.evan.model.Organization"/>
+            </bean>
+        </constructor-arg>
+    </bean>
 </beans>

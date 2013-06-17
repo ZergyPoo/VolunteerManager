@@ -30,4 +30,8 @@
         <property name="mailEngine" ref="mailEngine"/>
         <property name="mailMessage" ref="mailMessage"/>
     </bean>
+
+    <bean id="organizationAction" class="com.evan.webapp.action.OrganizationAction" scope="prototype">
+        <property name="organizationManager" ref="organizationManager"/>
+    </bean>
 </beans>
