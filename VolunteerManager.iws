@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d1198f-bfbf-48cd-b11a-51476227a142" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/viewOrganization.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolunteerManager.iws" afterPath="$PROJECT_DIR$/VolunteerManager.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-struts.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
     </list>
     <ignored path="VolunteerManager.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259190432" ignored="false" />
+    <file path="/Dummy.txt" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372277021995" ignored="false" />
     <file path="/a.dummy" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371491915800" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/com/ievan/model/User-validation.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/jsp/EscapeXml.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/jsp/EscapeXmlELResolver.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/util/RequestUtil.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395184" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/com/evan/dao/hibernate/HibernateConfigurationTest.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395678" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/resources/sample-data.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395678" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/com/evan/service/impl/BaseManagerMockTestCase.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395679" ignored="false" />
@@ -39,8 +33,8 @@
     <file path="/ApplicationResources.properties" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219242955" ignored="false" />
     <file path="/profileFieldManagement.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492036556" ignored="false" />
     <file path="/applicationContext.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492968435" ignored="false" />
-    <file path="/OrganizationAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372268772337" ignored="false" />
-    <file path="/struts.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219654341" ignored="false" />
+    <file path="/OrganizationAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372282729350" ignored="false" />
+    <file path="/struts.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372282784161" ignored="false" />
     <file path="/applicationContext-struts.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371493782988" ignored="false" />
     <file path="/organizationManagement.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371493977782" ignored="false" />
     <file path="/menu-config.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371495097389" ignored="false" />
@@ -56,8 +50,10 @@
     <file path="/UserManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372262762729" ignored="false" />
     <file path="/UserDao.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259727087" ignored="false" />
     <file path="/UserDaoHibernate.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259889074" ignored="false" />
-    <file path="/BaseAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372267558313" ignored="false" />
+    <file path="/BaseAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372277141489" ignored="false" />
     <file path="/UserAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372266397509" ignored="false" />
+    <file path="/urlrewrite.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372278490761" ignored="false" />
+    <file path="/viewOrganization.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372282427197" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +141,10 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -181,11 +181,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -256,7 +252,7 @@
       <file leaf-file-name="SignupAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="74" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.26923">
+            <state line="25" column="69" selection-start="916" selection-end="936" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -265,45 +261,34 @@
       <file leaf-file-name="BaseAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="71" selection-start="5571" selection-end="5571" vertical-scroll-proportion="-95.19231">
-              <folding>
-                <element signature="e#2684#2714#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
+            <state line="206" column="5" selection-start="6008" selection-end="6008" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/Constants.java">
+      <file leaf-file-name="default-data.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="41" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
+            <state line="35" column="73" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java">
+      <file leaf-file-name="urlrewrite.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="64" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
+            <state line="60" column="39" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="organizationList.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
+      <file leaf-file-name="FileUploadAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-13.75">
+            <state line="52" column="44" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -315,16 +300,36 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="24" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-10.0">
+            <state line="34" column="67" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-18.333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java">
+      <file leaf-file-name="OrganizationAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="43" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+            <state line="99" column="42" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="organizationList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="6" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-13.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewOrganization.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/viewOrganization.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="6" selection-start="523" selection-end="523" vertical-scroll-proportion="0.40431267">
               <folding />
             </state>
           </provider>
@@ -333,19 +338,8 @@
       <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+            <state line="95" column="0" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrganizationAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="26" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.6932115">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -373,22 +367,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/ApplicationResources.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/viewOrganization.jsp" />
       </list>
     </option>
   </component>
@@ -524,8 +518,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -734,6 +728,32 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Resource Bundle 'ApplicationResources'" />
               <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1191,7 +1211,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1547335" sideWeight="0.64291495" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35708502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35708502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1319,72 +1339,72 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-resources.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="43" selection-start="9785" selection-end="9785" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
+    <entry file="file://$PROJECT_DIR$/src/site/site.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="108" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.32891467">
+        <state line="141" column="25" selection-start="4596" selection-end="4603" vertical-scroll-proportion="0.33243242">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="43" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="64" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
+        <state line="35" column="73" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-13.75">
+        <state line="22" column="54" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.4308094">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="423" selection-end="423" vertical-scroll-proportion="-0.16853933">
+        <state line="60" column="39" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/ReloadAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1394,47 +1414,45 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="24" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="41" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
+        <state line="34" column="67" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-18.333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="71" selection-start="5571" selection-end="5571" vertical-scroll-proportion="-95.19231">
-          <folding>
-            <element signature="e#2684#2714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="74" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.26923">
+        <state line="206" column="5" selection-start="6008" selection-end="6008" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="26" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.6932115">
+        <state line="99" column="42" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/viewOrganization.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="6" selection-start="523" selection-end="523" vertical-scroll-proportion="0.40431267">
+          <folding />
         </state>
       </provider>
     </entry>

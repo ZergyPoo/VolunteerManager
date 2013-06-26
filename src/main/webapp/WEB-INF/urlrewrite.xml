@@ -57,6 +57,10 @@
         <from>/logout*</from>
         <to>/logout.jsp</to>
     </rule>
+    <rule>
+        <from>/dreadwoodhaunt/**</from>
+        <to>/$1?organizationId=1</to>
+    </rule>
 
     <!-- Struts -->
     <rule match-type="regex">

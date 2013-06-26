@@ -112,6 +112,10 @@
             <result name="success">/</result>
         </action>
 
+        <action name="viewOrganization" class="organizationAction" method="view">
+            <result name="success">/WEB-INF/pages/viewOrganization.jsp</result>
+        </action>
+
         <!-- Add additional actions here -->
     </package>
 

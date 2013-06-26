@@ -184,6 +184,8 @@ public class BaseAction extends ActionSupport implements Preparable {
 
         organizationId = (orgIdString != null) ? Long.valueOf(orgIdString) : null;
 
+        log.debug(userManager == null);
+
         if (organizationId == null && username != null) {
             User currentUser = userManager.getUserByUsername(username);
             if (currentUser.getOrganization() != null) {

@@ -50,10 +50,6 @@ public class OrganizationAction extends BaseAction {
         return SUCCESS;
     }
 
-    public void prepare() {
-        super.prepare();
-    }
-
     public String list() {
         organizations = organizationManager.getAll();
         return ACTION_LIST;
@@ -90,6 +86,18 @@ public class OrganizationAction extends BaseAction {
         } else {
             organization = new Organization();
         }
+
+        return SUCCESS;
+    }
+
+    public String view() {
+        if (id == null) {
+            return ERROR;
+        }
+
+        organization = organizationManager.get(id);
+
+        log.debug("Organization Name: " + organization.getName());
 
         return SUCCESS;
     }
