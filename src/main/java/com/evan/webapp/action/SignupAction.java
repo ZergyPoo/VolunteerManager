@@ -28,7 +28,6 @@ public class SignupAction extends BaseAction {
     private User user;
     private String cancel;
     private Long organizationId;
-    private Organization organization;
 
     public void setCancel(String cancel) {
         this.cancel = cancel;
@@ -46,14 +45,6 @@ public class SignupAction extends BaseAction {
         this.organizationId = organizationId;
     }
 
-    public Organization getOrganization() {
-        return organization;
-    }
-
-    public void setOrganization(Organization organization) {
-        this.organization = organization;
-    }
-
     @Autowired
     public void setOrganizationManager(GenericManager<Organization, Long> organizationManager) {
         this.organizationManager = organizationManager;
@@ -69,7 +60,6 @@ public class SignupAction extends BaseAction {
 
     public String initializeSignup () {
         if (organizationId != null) {
-            organization = organizationManager.get(organizationId);
             return SUCCESS;
         } else {
             return ERROR;
@@ -109,10 +99,7 @@ public class SignupAction extends BaseAction {
         // Set the default user role on this new user
         user.addRole(roleManager.getRole(Constants.USER_ROLE));
 
-        log.debug("Org Id: " + organization.getId());
-        user.setOrganization(organization);
-
-        log.debug("Current User: " + user);
+        user.setOrganization(organizationManager.get(organizationId));
 
         try {
             user = userManager.saveUser(user);

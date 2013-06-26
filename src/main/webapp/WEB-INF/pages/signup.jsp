@@ -15,8 +15,7 @@
             autocomplete="off" cssClass="well form-horizontal">
 
 
-        <s:hidden key="organization.id" />
-        <s:hidden key="organization.name" />
+        <s:hidden key="organizationId" />
         <s:textfield key="user.username" required="true"/>
         <s:password key="user.password" showPassword="true" required="true"/>
         <s:password key="user.confirmPassword" required="true" showPassword="true"/>

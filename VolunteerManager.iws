@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d1198f-bfbf-48cd-b11a-51476227a142" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/evan/model/Organization-validation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction-validation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ApplicationResources.properties" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationResources.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction-validation.xml" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction-validation.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/model/User-validation.xml" afterPath="$PROJECT_DIR$/src/main/java/com/evan/model/User-validation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction-validation.xml" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction-validation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolunteerManager.iws" afterPath="$PROJECT_DIR$/VolunteerManager.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationEdit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationEdit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
     </list>
     <ignored path="VolunteerManager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +29,7 @@
     <file path="/hibernate.cfg.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371489105340" ignored="false" />
     <file path="/ProfileFieldType.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371488721033" ignored="false" />
     <file path="/ProfileFieldValue.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371489076720" ignored="false" />
-    <file path="/SignupAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223202814" ignored="false" />
+    <file path="/SignupAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223351834" ignored="false" />
     <file path="/ApplicationResources.properties" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219242955" ignored="false" />
     <file path="/profileFieldManagement.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492036556" ignored="false" />
     <file path="/applicationContext.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492968435" ignored="false" />
@@ -58,7 +44,7 @@
     <file path="/OrganizsationAction-validation.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372216240774" ignored="false" />
     <file path="/userForm.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372218990725" ignored="false" />
     <file path="/userList.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219144907" ignored="false" />
-    <file path="/signup.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223228808" ignored="false" />
+    <file path="/signup.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223338169" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,10 +240,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SignupAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SignupAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="43" selection-start="3221" selection-end="3221" vertical-scroll-proportion="-8.576923">
+            <state line="29" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.39795917">
               <folding />
             </state>
           </provider>
@@ -320,10 +306,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="signup.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="44" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4817073">
+            <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.25">
               <folding />
             </state>
           </provider>
@@ -384,8 +370,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationResources.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
       </list>
     </option>
   </component>
@@ -1128,7 +1114,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6710059" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1357,16 +1343,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="43" selection-start="3221" selection-end="3221" vertical-scroll-proportion="-8.576923">
+        <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4817073">
+        <state line="29" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.39795917">
           <folding />
         </state>
       </provider>
