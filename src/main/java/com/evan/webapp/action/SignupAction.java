@@ -1,12 +1,15 @@
 package com.evan.webapp.action;
 
 
+import com.evan.model.Organization;
 import com.evan.model.ProfileField;
+import com.evan.service.GenericManager;
 import org.apache.struts2.ServletActionContext;
 import com.evan.Constants;
 import com.evan.model.User;
 import com.evan.service.UserExistsException;
 import com.evan.webapp.util.RequestUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -21,8 +24,11 @@ import java.util.List;
  */
 public class SignupAction extends BaseAction {
     private static final long serialVersionUID = 6558317334878272308L;
+    private GenericManager<Organization, Long> organizationManager;
     private User user;
     private String cancel;
+    private Long organizationId;
+    private Organization organization;
 
     public void setCancel(String cancel) {
         this.cancel = cancel;
@@ -32,12 +38,42 @@ public class SignupAction extends BaseAction {
         this.user = user;
     }
 
+    public Long getOrganizationId() {
+        return organizationId;
+    }
+
+    public void setOrganizationId(Long organizationId) {
+        this.organizationId = organizationId;
+    }
+
+    public Organization getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
+    }
+
+    @Autowired
+    public void setOrganizationManager(GenericManager<Organization, Long> organizationManager) {
+        this.organizationManager = organizationManager;
+    }
+
     /**
      * Return an instance of the user - to display when validation errors occur
      * @return a populated user
      */
     public User getUser() {
         return user;
+    }
+
+    public String initializeSignup () {
+        if (organizationId != null) {
+            organization = organizationManager.get(organizationId);
+            return SUCCESS;
+        } else {
+            return ERROR;
+        }
     }
 
     /**
@@ -72,6 +108,11 @@ public class SignupAction extends BaseAction {
 
         // Set the default user role on this new user
         user.addRole(roleManager.getRole(Constants.USER_ROLE));
+
+        log.debug("Org Id: " + organization.getId());
+        user.setOrganization(organization);
+
+        log.debug("Current User: " + user);
 
         try {
             user = userManager.saveUser(user);

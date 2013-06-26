@@ -35,6 +35,8 @@
             <input type="hidden" name="encryptPass" value="true"/>
         </s:if>
 
+
+
         <s:textfield key="user.username" required="true"/>
 
         <c:if test="${cookieLogin != 'true'}">

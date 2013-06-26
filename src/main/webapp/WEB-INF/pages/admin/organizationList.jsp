@@ -18,5 +18,6 @@
                         paramId="id" paramProperty="id" titleKey="organization.id"/>
         <display:column property="id" media="csv excel xml pdf" titleKey="organization.id"/>
         <display:column property="name" titleKey="organization.name" sortable="true"/>
+        <display:column property="address.city" titleKey="organization.address.city" sortable="true"/>
     </display:table>
 </div>

@@ -16,17 +16,25 @@ import java.util.List;
 public class OrganizationAction extends BaseAction {
     private GenericManager<Organization, Long> organizationManager;
     private List<Organization> organizations;
-    private String id;
+    private Long id;
     private Organization organization;
 
     private static final String ACTION_LIST = "list";
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public Organization getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
     }
 
     public List<Organization> getOrganizations() {
@@ -51,9 +59,34 @@ public class OrganizationAction extends BaseAction {
         return ACTION_LIST;
     }
 
+    public String delete() {
+        organizationManager.remove(organization);
+        String key = "organization.deleted";
+        saveMessage(getText(key));
+
+        return SUCCESS;
+    }
+
+    public String save() throws Exception {
+        if (this.cancel != null) {
+            return CANCEL;
+        }
+
+        if (this.delete != null) {
+            return delete();
+        }
+
+        organizationManager.save(this.organization);
+
+        String key = (organization.getId() == null) ? "organization.added" : "organization.updated";
+        saveMessage(getText(key));
+
+        return SUCCESS;
+    }
+
     public String edit() {
         if (id != null) {
-            organization = organizationManager.get(new Long(id));
+            organization = organizationManager.get(id);
         } else {
             organization = new Organization();
         }

@@ -73,8 +73,9 @@
             <result name="success">/WEB-INF/pages/mainMenu.jsp</result>
         </action>
 
-        <action name="signup">
-            <result>/WEB-INF/pages/signup.jsp</result>
+        <action name="signup" class="signupAction" method="initializeSignup">
+            <result name="success">/WEB-INF/pages/signup.jsp</result>
+            <result name="error">/</result>
         </action>
 
         <action name="saveSignup" class="signupAction" method="save">
@@ -138,6 +139,13 @@
 
         <action name="editOrganization" class="organizationAction" method="edit">
             <result name="success">/WEB-INF/pages/admin/organizationEdit.jsp</result>
+        </action>
+
+        <action name="saveOrganization" class="organizationAction" method="save">
+            <result name="input">/WEB-INF/pages/admin/organizationEdit.jsp</result>
+            <result name="success" type="redirectAction">organizationManagement</result>
+            <result name="cancel" type="redirectAction">organizationManagement</result>
+            <result name="delete" type="redirectAction">organizationManagement</result>
         </action>
     </package>
 </struts>

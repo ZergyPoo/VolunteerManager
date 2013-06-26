@@ -14,6 +14,9 @@
     <s:form name="signupForm" action="saveSignup" method="post" validate="true"
             autocomplete="off" cssClass="well form-horizontal">
 
+
+        <s:hidden key="organization.id" />
+        <s:hidden key="organization.name" />
         <s:textfield key="user.username" required="true"/>
         <s:password key="user.password" showPassword="true" required="true"/>
         <s:password key="user.confirmPassword" required="true" showPassword="true"/>
