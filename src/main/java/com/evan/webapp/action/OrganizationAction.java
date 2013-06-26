@@ -17,6 +17,7 @@ public class OrganizationAction extends BaseAction {
     private GenericManager<Organization, Long> organizationManager;
     private List<Organization> organizations;
     private String id;
+    private Organization organization;
 
     private static final String ACTION_LIST = "list";
 
@@ -51,6 +52,12 @@ public class OrganizationAction extends BaseAction {
     }
 
     public String edit() {
+        if (id != null) {
+            organization = organizationManager.get(new Long(id));
+        } else {
+            organization = new Organization();
+        }
+
         return SUCCESS;
     }
 }
