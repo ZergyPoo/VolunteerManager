@@ -32,6 +32,8 @@ public interface UserDao extends GenericDao<User, Long> {
      */
     List<User> getUsers();
 
+    List<User> getUsersByOrgId(Long orgId);
+
     /**
      * Saves a user's information.
      * @param user the object to be saved

@@ -1,6 +1,7 @@
 package com.evan.webapp.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.Preparable;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.struts2.ServletActionContext;
@@ -28,7 +29,7 @@ import java.util.Map;
  *
  * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
  */
-public class BaseAction extends ActionSupport {
+public class BaseAction extends ActionSupport implements Preparable {
     private static final long serialVersionUID = 3525445612504421307L;
 
     /**
@@ -85,6 +86,8 @@ public class BaseAction extends ActionSupport {
      * Velocity template to use for e-mailing
      */
     protected String templateName;
+
+    protected Long organizationId;
 
     /**
      * Simple method that returns "cancel" result
@@ -175,6 +178,28 @@ public class BaseAction extends ActionSupport {
         mailEngine.sendMessage(mailMessage, templateName, model);
     }
 
+    public void prepare() {
+        String username = getRequest().getRemoteUser();
+        String orgIdString = getRequest().getParameter(Constants.ORG_ID_PARAM);
+
+        organizationId = (orgIdString != null) ? Long.valueOf(orgIdString) : null;
+
+        if (organizationId == null && username != null) {
+            User currentUser = userManager.getUserByUsername(username);
+            if (currentUser.getOrganization() != null) {
+                organizationId = currentUser.getOrganization().getId();
+            }
+        }
+
+        if (organizationId == null) {
+            organizationId = (Long) getSession().getAttribute(Constants.ORG_ID_PARAM);
+        }
+
+        getSession().setAttribute(Constants.ORG_ID_PARAM, organizationId);
+
+        log.debug("Org Id: " + organizationId);
+    }
+
     public void setUserManager(UserManager userManager) {
         this.userManager = userManager;
     }
@@ -193,6 +218,14 @@ public class BaseAction extends ActionSupport {
 
     public void setTemplateName(String templateName) {
         this.templateName = templateName;
+    }
+
+    public Long getOrganizationId() {
+        return organizationId;
+    }
+
+    public void setOrganizationId(Long organizationId) {
+        this.organizationId = organizationId;
     }
 
     /**

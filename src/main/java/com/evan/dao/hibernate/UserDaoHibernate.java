@@ -48,6 +48,10 @@ public class UserDaoHibernate extends GenericDaoHibernate<User, Long> implements
         return qry.list();
     }
 
+    public List<User> getUsersByOrgId(Long orgId) {
+        return getSession().createCriteria(User.class).add(Restrictions.eq("organization_id",orgId)).list();
+    }
+
     /**
      * {@inheritDoc}
      */

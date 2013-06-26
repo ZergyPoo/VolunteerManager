@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Action for facilitating User Management feature.
  */
-public class UserAction extends BaseAction implements Preparable {
+public class UserAction extends BaseAction {
     private static final long serialVersionUID = 6776558938712115191L;
     private List<User> users;
     private User user;
@@ -37,6 +37,7 @@ public class UserAction extends BaseAction implements Preparable {
      * Grab the entity from the database before populating with request parameters
      */
     public void prepare() {
+        super.prepare();
         // prevent failures on new
         if (getRequest().getMethod().equalsIgnoreCase("post") && (!"".equals(getRequest().getParameter("user.id")))) {
             user = userManager.getUser(getRequest().getParameter("user.id"));

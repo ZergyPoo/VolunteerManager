@@ -82,4 +82,8 @@ public final class Constants {
      * @deprecated No longer used to set themes.
      */
     public static final String CSS_THEME = "csstheme";
+
+    public static final Long DEFAULT_ORG_ID = new Long(1);
+
+    public static final String ORG_ID_PARAM = "organizationId";
 }

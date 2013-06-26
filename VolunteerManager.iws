@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d1198f-bfbf-48cd-b11a-51476227a142" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolunteerManager.iws" afterPath="$PROJECT_DIR$/VolunteerManager.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
     </list>
     <ignored path="VolunteerManager.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372211538129" ignored="false" />
+    <file path="/Dummy.txt" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259190432" ignored="false" />
     <file path="/a.dummy" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371491915800" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/service/impl/LookupManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/service/impl/RoleManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/evan/service/impl/GenericManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/com/ievan/model/User-validation.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/jsp/EscapeXml.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/evan/webapp/jsp/EscapeXmlELResolver.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395183" ignored="false" />
@@ -29,22 +35,29 @@
     <file path="/hibernate.cfg.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371489105340" ignored="false" />
     <file path="/ProfileFieldType.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371488721033" ignored="false" />
     <file path="/ProfileFieldValue.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371489076720" ignored="false" />
-    <file path="/SignupAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223351834" ignored="false" />
+    <file path="/SignupAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372264045519" ignored="false" />
     <file path="/ApplicationResources.properties" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219242955" ignored="false" />
     <file path="/profileFieldManagement.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492036556" ignored="false" />
     <file path="/applicationContext.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371492968435" ignored="false" />
-    <file path="/OrganizationAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372215828607" ignored="false" />
+    <file path="/OrganizationAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372268772337" ignored="false" />
     <file path="/struts.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219654341" ignored="false" />
     <file path="/applicationContext-struts.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371493782988" ignored="false" />
     <file path="/organizationManagement.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371493977782" ignored="false" />
     <file path="/menu-config.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371495097389" ignored="false" />
-    <file path="/organizationList.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372215702742" ignored="false" />
+    <file path="/organizationList.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372262793578" ignored="false" />
     <file path="/organizationEdit.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372218689582" ignored="false" />
     <file path="/Organization-validation.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372218762387" ignored="false" />
     <file path="/OrganizsationAction-validation.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372216240774" ignored="false" />
     <file path="/userForm.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372218990725" ignored="false" />
     <file path="/userList.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372219144907" ignored="false" />
     <file path="/signup.jsp" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372223338169" ignored="false" />
+    <file path="/Constants.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372260990144" ignored="false" />
+    <file path="/UserManager.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259589686" ignored="false" />
+    <file path="/UserManagerImpl.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372262762729" ignored="false" />
+    <file path="/UserDao.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259727087" ignored="false" />
+    <file path="/UserDaoHibernate.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372259889074" ignored="false" />
+    <file path="/BaseAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372267558313" ignored="false" />
+    <file path="/UserAction.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372266397509" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +145,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -169,10 +181,11 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -240,55 +253,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SignupAction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SignupAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.39795917">
+            <state line="69" column="74" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.26923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User-validation.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User-validation.xml">
+      <file leaf-file-name="BaseAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
+            <state line="189" column="71" selection-start="5571" selection-end="5571" vertical-scroll-proportion="-95.19231">
+              <folding>
+                <element signature="e#2684#2714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User.java">
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="368" column="43" selection-start="9785" selection-end="9785" vertical-scroll-proportion="0.0">
+            <state line="80" column="41" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Organization.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
+      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="65" column="64" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <file leaf-file-name="organizationList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="43" selection-start="4036" selection-end="4036" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userList.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="6" selection-start="2921" selection-end="2921" vertical-scroll-proportion="-17.375">
+            <state line="22" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -300,35 +315,37 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="45" selection-start="6066" selection-end="6066" vertical-scroll-proportion="-13.111111">
+            <state line="156" column="24" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
+      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.25">
+            <state line="34" column="43" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="49" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="402" selection-end="470" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUploadAction-validation.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="71" column="26" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.6932115">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -356,22 +373,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/com/evan/webapp/action/OrganizsationAction-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/evan/model/Organization-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/model/User-validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/model/Organization-validation.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationResources.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java" />
       </list>
     </option>
   </component>
@@ -459,8 +476,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="965" />
+    <option name="width" value="2560" />
+    <option name="height" value="1355" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -507,6 +524,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -709,6 +728,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'ApplicationResources'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -773,14 +818,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VolunteerManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -805,8 +882,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -849,21 +926,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Local">
       <deployment />
       <server-settings>
@@ -882,32 +944,26 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <module name="" />
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Remote">
@@ -937,6 +993,27 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -1091,11 +1168,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="965" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1355" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67125505" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1105,7 +1182,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.28639054" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41301775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41295546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1113,8 +1190,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22276622" sideWeight="0.6710059" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6710059" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1547335" sideWeight="0.64291495" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35708502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1242,93 +1319,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.7513915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="6" selection-start="2921" selection-end="2921" vertical-scroll-proportion="-17.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResources.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="45" selection-start="6066" selection-end="6066" vertical-scroll-proportion="-13.111111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/userForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="24" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.5487805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="43" selection-start="4036" selection-end="4036" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.54268295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="402" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
@@ -1345,15 +1335,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.25">
+        <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/FileUploadAction-validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="132" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/hibernate/UserDaoHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="108" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.32891467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="43" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/impl/UserManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="64" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/organizationList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/service/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="67" selection-start="423" selection-end="423" vertical-scroll-proportion="-0.16853933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="49" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResources.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="24" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="41" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="71" selection-start="5571" selection-end="5571" vertical-scroll-proportion="-95.19231">
+          <folding>
+            <element signature="e#2684#2714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.39795917">
+        <state line="69" column="74" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.26923">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/webapp/action/OrganizationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="26" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.6932115">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

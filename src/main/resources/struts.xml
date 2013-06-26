@@ -75,7 +75,6 @@
 
         <action name="signup" class="signupAction" method="initializeSignup">
             <result name="success">/WEB-INF/pages/signup.jsp</result>
-            <result name="error">/</result>
         </action>
 
         <action name="saveSignup" class="signupAction" method="save">

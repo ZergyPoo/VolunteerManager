@@ -45,6 +45,12 @@ public interface UserManager extends GenericManager<User, Long> {
     List<User> getUsers();
 
     /**
+     * Retrieves a list of all users from a single org
+     * @return List
+     */
+    List<User> getUsersByOrgId(Long orgId);
+
+    /**
      * Saves a user's information.
      *
      * @param user the user's information

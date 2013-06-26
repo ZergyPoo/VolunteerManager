@@ -27,7 +27,6 @@ public class SignupAction extends BaseAction {
     private GenericManager<Organization, Long> organizationManager;
     private User user;
     private String cancel;
-    private Long organizationId;
 
     public void setCancel(String cancel) {
         this.cancel = cancel;
@@ -35,14 +34,6 @@ public class SignupAction extends BaseAction {
 
     public void setUser(User user) {
         this.user = user;
-    }
-
-    public Long getOrganizationId() {
-        return organizationId;
-    }
-
-    public void setOrganizationId(Long organizationId) {
-        this.organizationId = organizationId;
     }
 
     @Autowired
@@ -59,11 +50,13 @@ public class SignupAction extends BaseAction {
     }
 
     public String initializeSignup () {
-        if (organizationId != null) {
-            return SUCCESS;
-        } else {
-            return ERROR;
-        }
+        //if (organizationId == null) {
+          //  organizationId = Constants.DEFAULT_ORG_ID;
+        //}
+
+        log.debug("Organization Id: " + organizationId);
+
+        return SUCCESS;
     }
 
     /**

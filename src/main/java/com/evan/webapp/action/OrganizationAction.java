@@ -46,12 +46,12 @@ public class OrganizationAction extends BaseAction {
         this.organizationManager = organizationManager;
     }
 
-    public void prepare() {
-        System.out.println("this is a test");
-    }
-
     public String execute() {
         return SUCCESS;
+    }
+
+    public void prepare() {
+        super.prepare();
     }
 
     public String list() {
