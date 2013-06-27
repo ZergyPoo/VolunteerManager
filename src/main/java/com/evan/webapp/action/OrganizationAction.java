@@ -1,9 +1,12 @@
 package com.evan.webapp.action;
 
 import com.evan.model.Organization;
+import com.evan.model.User;
 import com.evan.service.GenericManager;
+import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -90,14 +93,15 @@ public class OrganizationAction extends BaseAction {
         return SUCCESS;
     }
 
-    public String view() {
-        if (id == null) {
-            return ERROR;
+    public String view() throws Exception {
+        User user = userManager.getUserByUsername(getRequest().getRemoteUser());
+        Long userOrgId = (user.getOrganization() != null) ? user.getOrganization().getId() : null;
+        if ((id == null) || (id != null && userOrgId != null && userOrgId != id)) {
+            ServletActionContext.getResponse().sendError(HttpServletResponse.SC_FORBIDDEN);
+            return null;
         }
 
         organization = organizationManager.get(id);
-
-        log.debug("Organization Name: " + organization.getName());
 
         return SUCCESS;
     }

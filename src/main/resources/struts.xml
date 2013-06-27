@@ -114,6 +114,7 @@
 
         <action name="viewOrganization" class="organizationAction" method="view">
             <result name="success">/WEB-INF/pages/viewOrganization.jsp</result>
+            <result name="error">/WEB-INF/pages/admin/organizationList.jsp</result>
         </action>
 
         <!-- Add additional actions here -->
@@ -137,14 +138,17 @@
         </action>
 
         <action name="organizationManagement" class="organizationAction" method="list">
+            <interceptor-ref name="adminCheck"/>
             <result name="list">/WEB-INF/pages/admin/organizationList.jsp</result>
         </action>
 
         <action name="editOrganization" class="organizationAction" method="edit">
+            <interceptor-ref name="adminCheck"/>
             <result name="success">/WEB-INF/pages/admin/organizationEdit.jsp</result>
         </action>
 
         <action name="saveOrganization" class="organizationAction" method="save">
+            <interceptor-ref name="adminCheck"/>
             <result name="input">/WEB-INF/pages/admin/organizationEdit.jsp</result>
             <result name="success" type="redirectAction">organizationManagement</result>
             <result name="cancel" type="redirectAction">organizationManagement</result>

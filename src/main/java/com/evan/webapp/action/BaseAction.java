@@ -184,8 +184,6 @@ public class BaseAction extends ActionSupport implements Preparable {
 
         organizationId = (orgIdString != null) ? Long.valueOf(orgIdString) : null;
 
-        log.debug(userManager == null);
-
         if (organizationId == null && username != null) {
             User currentUser = userManager.getUserByUsername(username);
             if (currentUser.getOrganization() != null) {
@@ -198,8 +196,6 @@ public class BaseAction extends ActionSupport implements Preparable {
         }
 
         getSession().setAttribute(Constants.ORG_ID_PARAM, organizationId);
-
-        log.debug("Org Id: " + organizationId);
     }
 
     public void setUserManager(UserManager userManager) {

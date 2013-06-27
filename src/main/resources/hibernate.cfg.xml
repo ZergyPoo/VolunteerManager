@@ -9,6 +9,8 @@
         <mapping class="com.evan.model.User"/>
         <mapping class="com.evan.model.Role"/>
         <mapping class="com.evan.model.Organization"/>
+        <mapping class="com.evan.model.Season"/>
+        <mapping class="com.evan.model.Event"/>
         <mapping class="com.evan.model.ProfileField"/>
         <mapping class="com.evan.model.ProfileFieldType"/>
         <mapping class="com.evan.model.ProfileFieldValue"/>
