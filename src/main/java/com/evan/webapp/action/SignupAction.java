@@ -91,7 +91,6 @@ public class SignupAction extends BaseAction {
 
         // Set the default user role on this new user
         user.addRole(roleManager.getRole(Constants.USER_ROLE));
-
         user.setOrganization(organizationManager.get(organizationId));
 
         try {

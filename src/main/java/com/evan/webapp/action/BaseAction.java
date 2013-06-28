@@ -182,7 +182,7 @@ public class BaseAction extends ActionSupport implements Preparable {
         String username = getRequest().getRemoteUser();
         String orgIdString = getRequest().getParameter(Constants.ORG_ID_PARAM);
 
-        organizationId = (orgIdString != null) ? Long.valueOf(orgIdString) : null;
+        organizationId = (orgIdString != null && orgIdString != "") ? Long.valueOf(orgIdString) : null;
 
         if (organizationId == null && username != null) {
             User currentUser = userManager.getUserByUsername(username);
