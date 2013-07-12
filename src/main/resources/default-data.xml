@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
+    <table name="organization">
+        <column>id</column>
+        <column>address</column>
+        <column>city</column>
+        <column>province</column>
+        <column>postal_code</column>
+        <column>country</column>
+        <column>deleted</column>
+        <column>name</column>
+        <row>
+            <value description="id">1</value>
+            <value description="address"></value>
+            <value description="city">St. Paul</value>
+            <value description="province">MN</value>
+            <value description="postal_code">55105</value>
+            <value description="country">US</value>
+            <value description="deleted">0</value>
+            <value description="name">Test Org</value>
+        </row>
+    </table>
     <table name="app_user">
         <column>id</column>
         <column>username</column>
@@ -20,20 +40,21 @@
         <column>account_expired</column>
         <column>account_locked</column>
         <column>credentials_expired</column>
+        <column>organization_id</column>
         <row>
             <value description="id">1</value>
-            <value description="username">user</value>
-            <value description="password">b6b1f4781776979c0775c71ebdd8bdc084aac5fe</value>
-            <value description="first_name">Tomcat</value>
-            <value description="last_name">User</value>
+            <value description="username">admin</value>
+            <value description="password">a40546cc4fd6a12572828bb803380888ad1bfdab</value>
+            <value description="first_name">Evan</value>
+            <value description="last_name">Kennedy</value>
             <value description="address"></value>
-            <value description="city">Denver</value>
+            <value description="city">St. Paul</value>
             <value description="country">US</value>
-            <value description="email">matt_raible@yahoo.com</value>
+            <value description="email">kennedyman@gmail.com</value>
             <value description="phone_number"></value>
-            <value description="postal_code">80210</value>
-            <value description="province">CO</value>
-            <value description="website">http://tomcat.apache.org</value>
+            <value description="postal_code">55104</value>
+            <value description="province">MN</value>
+            <value description="website"></value>
             <value description="password_hint"><![CDATA[The same as your username.]]></value>
             <value description="version">1</value>
             <value description="account_enabled">1</value>
@@ -43,24 +64,25 @@
         </row>
         <row>
             <value description="id">2</value>
-            <value description="username">admin</value>
+            <value description="username">orgadmin</value>
             <value description="password">a40546cc4fd6a12572828bb803380888ad1bfdab</value>
-            <value description="first_name">Matt</value>
-            <value description="last_name">Raible</value>
+            <value description="first_name">Evan</value>
+            <value description="last_name">Kennedy</value>
             <value description="address"></value>
-            <value description="city">Denver</value>
+            <value description="city">St. Paul</value>
             <value description="country">US</value>
-            <value description="email">matt@raibledesigns.com</value>
+            <value description="email">kennedyman-orgadmin@gmail.com</value>
             <value description="phone_number"></value>
-            <value description="postal_code">80210</value>
-            <value description="province">CO</value>
-            <value description="website">http://raibledesigns.com</value>
+            <value description="postal_code">55104</value>
+            <value description="province">MN</value>
+            <value description="website"></value>
             <value description="password_hint"><![CDATA[The same as your username.]]></value>
             <value description="version">1</value>
             <value description="account_enabled">1</value>
             <value description="account_expired">0</value>
             <value description="account_locked">0</value>
             <value description="credentials_expired">0</value>
+            <value description="organization_id">1</value>
         </row>
     </table>
     <table name="role">
@@ -77,6 +99,11 @@
             <value description="name">ROLE_USER</value>
             <value description="description"><![CDATA[Default role for all Users]]></value>
         </row>
+        <row>
+            <value description="id">3</value>
+            <value description="name">ROLE_ORG_ADMIN</value>
+            <value description="description"><![CDATA[Org-level admin user]]></value>
+        </row>
     </table>
     <table name="user_role">
         <column>user_id</column>
@@ -87,7 +114,7 @@
         </row>
         <row>
             <value description="user_id">2</value>
-            <value description="role_id">1</value>
+            <value description="role_id">3</value>
         </row>
     </table>
 </dataset>
