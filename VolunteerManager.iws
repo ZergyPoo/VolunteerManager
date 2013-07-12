@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d1198f-bfbf-48cd-b11a-51476227a142" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolunteerManager.iws" afterPath="$PROJECT_DIR$/VolunteerManager.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java" afterPath="$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/default-data.xml" afterPath="$PROJECT_DIR$/src/main/resources/default-data.xml" />
     </list>
     <ignored path="VolunteerManager.iws" />
@@ -17,7 +17,7 @@
     <file path="$PROJECT_DIR$/src/test/java/com/evan/webapp/filter/LocaleFilterTest.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395679" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/com/evan/dao/BaseDaoTestCase.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395679" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/com/evan/dao/RoleDaoTest.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371478395679" ignored="false" />
-    <file path="/Organization.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371491080900" ignored="false" />
+    <file path="/Organization.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1373664668836" ignored="false" />
     <file path="/User.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372220536427" ignored="false" />
     <file path="/ProfileField.java" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1371490520744" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="23d1198f-bfbf-48cd-b11a-51476227a142" time="1372290449712" ignored="false" />
@@ -283,10 +283,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default-data.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default-data.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="25" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.7216981">
+            <state line="108" column="32" selection-start="4829" selection-end="4829" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -295,7 +295,25 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="36" selection-start="4320" selection-end="4331" vertical-scroll-proportion="0.0">
+            <state line="336" column="35" selection-start="8823" selection-end="8823" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Organization.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="53" selection-start="1703" selection-end="1704" vertical-scroll-proportion="0.55597013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -305,15 +323,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="77" column="46" selection-start="2271" selection-end="2286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="71" selection-start="4491" selection-end="4491" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -351,7 +360,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/evan/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-struts.xml" />
@@ -367,6 +375,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evan/webapp/action/SignupAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/default-data.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java" />
       </list>
     </option>
   </component>
@@ -1096,7 +1105,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.67125505" order="3" side_tool="false" content_ui="tabs" />
@@ -1109,6 +1118,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.28639054" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41210046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1123,7 +1133,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41210046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1246,20 +1255,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="679" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Season.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="4" selection-start="867" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
@@ -1342,16 +1337,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="36" selection-start="4320" selection-end="4331" vertical-scroll-proportion="0.0">
+        <state line="108" column="32" selection-start="4829" selection-end="4829" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.7216981">
+        <state line="336" column="35" selection-start="8823" selection-end="8823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evan/model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="53" selection-start="1703" selection-end="1704" vertical-scroll-proportion="0.55597013">
           <folding />
         </state>
       </provider>

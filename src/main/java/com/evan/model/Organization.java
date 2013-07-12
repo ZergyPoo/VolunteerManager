@@ -67,7 +67,18 @@ public class Organization extends BaseObject {
 
     @Override
     public boolean equals(Object o) {
-        return false;
+        if (o == null) {
+            return false;
+        }
+
+        if (this == o) {
+            return true;
+        }
+
+        Organization org = (Organization) o;
+
+        return ((this.name != null && this.name.equals(org.getName())) &&
+                (this.isDeleted == org.isDeleted()));
     }
 
     @Override
